@@ -1,0 +1,15 @@
+.container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+
+}
+
+.add-recipe-btn {
+  font-weight: 620;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+
+}

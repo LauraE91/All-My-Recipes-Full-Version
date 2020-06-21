@@ -1,0 +1,22 @@
+.ingredient-input-form {
+  background: powderblue;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem;
+  align-items: center;
+}
+
+.add-ingredient-btn {
+
+}
+
+span {
+  margin: 0.30rem;
+}
+
+.ingredient-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5.5rem;
+}

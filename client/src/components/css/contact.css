@@ -1,0 +1,27 @@
+.contact-form {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+@media(min-width: 900px) {
+  .contact-form {
+    width: 65%;
+
+  }
+}
+
+@media(min-width: 1100px) {
+  .contact-form {
+    width: 50%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .contact-form {
+    width: 40%;
+  }
+}
+
+.contact-heading {
+  margin-top: 5rem;
+}

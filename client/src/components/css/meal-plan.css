@@ -1,0 +1,76 @@
+.view-container {
+  background: #ddd;
+  width: 100%;
+}
+
+.view-options {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.view-options li{
+  cursor: pointer;
+  padding: 1rem;
+  transition: 0.3s ease;
+}
+
+.view-options li:hover, .view-options li:active{
+  background: #333;
+  color: white;
+}
+
+
+.view {
+  background: pink;
+  width: 100%;
+}
+
+.day-view {
+  background: lightblue;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+@media(min-width: 700px) {
+  .day-view {
+    width: 60%;
+  }
+}
+
+.week-view {
+
+}
+
+.month-view {
+
+}
+
+.day-card {
+  margin: 1rem;
+  padding: 2rem;
+  background: white;
+}
+
+.default-text {
+  margin: 1rem;
+  padding: 2rem;
+  background:inherit;
+}
+
+.week {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.day {
+  background: white;
+  margin: 0.5rem;
+  padding: 1.5rem 2rem;
+  min-height: 7rem;
+
+}

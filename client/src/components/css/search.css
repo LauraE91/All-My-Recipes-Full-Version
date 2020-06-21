@@ -1,0 +1,11 @@
+.search-bar input {
+  padding: 0.25rem 1rem;
+  outline: none;
+  width: 50%;
+}
+
+@media(max-width: 500px) {
+  .search-bar input {
+    width: 70%;
+  }
+}

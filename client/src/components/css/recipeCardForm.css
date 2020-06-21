@@ -1,0 +1,60 @@
+.recipe-card-form {
+  margin: 3rem auto !important;
+  width: 95% !important;
+  padding: 3rem 2rem;
+}
+
+.recipe-card-form-title {
+  color: var(--dark-clr);
+}
+
+@media(min-width: 770px) {
+  .recipe-card-form {
+    width: 75% !important;
+  }
+}
+
+@media(min-width: 900px) {
+  .recipe-card-form {
+    width: 65% !important;
+  }
+}
+
+@media(min-width: 1150px) {
+  .recipe-card-form {
+    width: 50% !important;
+  }
+}
+
+
+
+
+.recipe-card-form button,
+.recipe-card-form input,
+.recipe-card-form textarea {
+  margin: 0.5rem !important;
+}
+
+span {
+  margin: 0.25rem;
+}
+
+.ingredient-list button {
+  margin: 0rem 0.25rem 0.5rem 0 !important;
+}
+
+
+.ingredient-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5.5rem;
+}
+
+.submit-or-cancel-group {
+  margin-left: 0rem;
+}
+
+.fa-check {
+  margin-right: 0.5rem;
+}

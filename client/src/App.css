@@ -1,0 +1,151 @@
+/* Global Styles */
+:root {
+  --primary-clr: #00d1b2;
+  --secondary-clr: #ff3502;
+  --dark-clr: #000a09;
+  --light-clr:  #faf6f6;
+}
+
+.App {
+  text-align: center;
+}
+.app-body {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+
+}
+
+.default-message {
+  margin-top: 4rem;
+}
+
+ul {
+  list-style-type: none ;
+}
+
+.primary-btn {
+  background: var(--primary-clr);
+  color: var(--light-clr);
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+  transition: 0.3s ease all;
+}
+
+.secondary-btn {
+  background: white;
+  color: var(--secondary-clr) !important;
+  border-color: var(--secondary-clr) !important;
+  font-weight: bold;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+  transition: 0.3s ease all;
+}
+
+.secondary-btn:hover {
+  color: var(--primary-clr) !important;
+  border-color: var(--primary-clr) !important;
+}
+
+.third-btn {
+  color: var(--primary-clr);
+  background: white;
+  border-color: var(--primary-clr);
+  transition: 0.3s ease-in-out;
+}
+
+.third-btn:hover {
+  color: var(--secondary-clr);
+  border-color: var(--secondary-clr);
+}
+
+
+a {
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-clr) !important;
+}
+
+a:active {
+  color: var(--secondary-clr) !important;
+}
+
+.primary-btn:hover {
+  color: var(--light-clr) !important;
+  background: var(--secondary-clr) !important;
+}
+
+
+.form-title {
+  color: var(--dark-clr);
+}
+
+.margin-1 {
+  margin: 1rem;
+}
+
+.margin-1.5 {
+  margin: 1.5rem;
+}
+
+.margin-2 {
+  margin: 2rem;
+}
+
+.margin-3 {
+  margin: 3rem;
+}
+
+.margin-top {
+  margin-top: 1.5rem;
+}
+
+.margin-top-3 {
+  margin-top: 3rem;
+}
+
+.margin-top-5 {
+  margin-top: 5rem;
+}
+
+.margin-bottom-3 {
+  margin-bottom: 3rem !important;
+}
+
+
+.auth-card {
+  border: 1px solid #ccc !important;
+  border-radius: 10px !important;
+  width: 90% !important;
+  height: 70vh !important;
+  margin: 0 auto !important;
+  padding: 4rem !important;
+}
+
+@media(min-width: 800px) {
+  .auth-card {
+    width: 60% !important;
+  }
+}
+
+@media(min-width: 1100px) {
+  .auth-card {
+    width: 40% !important;
+  }
+}
+
+@media(min-width: 1300px) {
+  .auth-card {
+    width: 30% !important;
+  }
+}
+
+.error {
+  margin-top: 2rem;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,39 @@
+.thumbnail-card {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  min-width: 26rem;
+  max-width: 28rem;
+  margin: 0.75rem;
+
+}
+
+.thumbnail-header {
+  margin-top: 2rem;
+}
+
+.thumbnail-header h5 {
+  color: var(--dark-clr);
+}
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 1.5rem;
+  padding: 0;
+
+}
+
+.details li {
+  padding: 0.5rem .25rem;
+  margin: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.open-btn {
+  color: var(--primary-clr) !important;
+}
+
+.footer-btn:hover {
+  background: hsl(0, 0%, 96%) !important;
+}

@@ -1,0 +1,81 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navMenu {
+  background: rgba(0,0,0,0.8);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: 7px 7px 10px 7px #000;
+  transform: translateX(200%);
+  transition: transform 0.5s ease;
+  z-index: 999;
+}
+
+.navMenu.open {
+  transform: translateX(0);
+}
+
+.navClose {
+  position: fixed;
+  font-size: 2rem;
+  z-index: 999;
+  padding: 1rem 1.5rem;
+  color: var(--primary-clr);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.navClose:hover {
+  color: var(--secondary-clr);
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin-top: 7rem;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.navLinks .navLink {
+  width: 100%;
+  text-align: center;
+}
+
+.navLinks .navItem {
+  list-style-type: none;
+  width: 100%;
+  padding: 1rem 1rem;
+  transition: 0.3s ease-in-out;
+  color: var(--primary-clr);
+  padding: 1rem 4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin: 0rem;
+  width: 100%;
+}
+
+.navItem:hover{
+  background: var(--light-clr);
+  color: var(--secondary-clr);
+}
+
+.fa-cog,
+.fa-users,
+.fa-question-circle {
+  margin-right: 1rem;
+}
+
+.active {
+  background: powderblue;
+}

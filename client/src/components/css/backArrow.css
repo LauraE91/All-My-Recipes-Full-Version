@@ -1,0 +1,21 @@
+.container-back-arrow {
+  margin: 1rem;
+  display: flex !important;
+  width: 100%;
+  justify-content: flex-start !important;
+
+}
+
+.container button {
+  font-size: 1.5rem;
+  padding: 0.25rem 1rem;
+  margin-top: 2rem;
+
+
+}
+
+/*
+.button {
+  vertical-align: bottom !important;
+}
+*/

@@ -1,0 +1,27 @@
+.card {
+  border-radius: 10px;
+
+}
+
+.recipeCard {
+  width: 40rem;
+  margin: 2rem;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.details li {
+  padding: 0.5rem .25rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-container {
+  margin-bottom: 2rem;
+  text-align: left;
+}

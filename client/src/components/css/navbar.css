@@ -1,0 +1,58 @@
+.nav-menu {
+  cursor: pointer;
+}
+
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+
+}
+
+.navbar-brand h1 {
+  color: var(--primary-clr);
+
+}
+
+
+
+.fa-sort-down {
+  margin-left: 0.5rem
+}
+
+.fa-cog,
+.fa-users,
+.fa-question-circle {
+  margin-right: 0.5rem;
+}
+
+
+
+.drop-down {
+  margin-right: 1.5rem;
+  border: 1px solid #ccc;
+
+
+}
+
+.navbar-item.has-dropdown {
+  padding: 0.5rem 7rem 0.5rem 0.5rem;
+}
+
+.navbar-end {
+  display: block;
+}
+
+.navbar-start a,
+.navbar-dropdown a {
+  color: var(--dark-clr) !important;
+}
+
+.navbar-start a:hover,
+.navbar-dropdown a:hover {
+  color: var(--primary-clr) !important;
+}
+
+.active {
+  background: powderblue;
+}

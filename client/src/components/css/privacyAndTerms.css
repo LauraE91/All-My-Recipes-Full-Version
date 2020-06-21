@@ -1,0 +1,26 @@
+.privacyAndTerms-content {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.sub-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.privacyAndTerms-heading {
+  margin-top: 8rem;
+}
+
+@media(min-width: 900px) {
+  .privacyAndTerms-content {
+    width: 70%;
+  }
+}
+
+@media(min-width: 900px) {
+  .privacyAndTerms-content {
+    width: 60%;
+  }
+}

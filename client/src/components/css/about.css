@@ -1,0 +1,21 @@
+.about-heading {
+  margin-top: 3rem;
+}
+
+.about-content {
+  width: 80%;
+  margin: 2rem auto;
+  margin-bottom: 15rem !important;
+}
+
+@media (min-width: 1024px) {
+  .about-content {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-content {
+    width: 40%;
+  }
+}

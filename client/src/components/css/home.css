@@ -1,0 +1,114 @@
+.hero {
+  background-image: url("../../img/nordwood-themes-pYWrdKO5ksI-unsplash.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: var(--light-clr) !important;
+  font-size: 2rem !important;
+
+}
+
+.subtitle {
+  color: var(--light-clr) !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: -1.5rem !important;
+
+}
+
+.hero-body .content {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.hero-body .primary-btn {
+  margin-top: 3.5rem;
+}
+
+.remove {
+  display: none !important;
+}
+
+.section-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem !important;
+}
+
+.fa-book,
+.fa-list-alt {
+  font-size: 6rem;
+  color: var(--primary-clr);
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  #the-app {
+    width: 80% !important;
+    margin: 3rem auto 3rem auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #the-app {
+    width: 60% !important;
+    margin: 3rem auto 3rem auto;
+  }
+}
+
+#featured-recipes {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.featured-heading {
+
+}
+
+.featured-columns {
+  margin: 1rem  !important;
+}
+
+.featured-column {
+  margin: 1rem;
+}
+
+#cta .content {
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
+}
+
+#cta {
+  margin: 4rem 2rem 4rem 2rem;
+}
+
+#cta form {
+  text-align: center;
+}
+
+#footer {
+  background: var(--dark-clr);
+}
+
+#footer p,
+#footer h3,
+#footer h4 {
+  color: var(--light-clr);
+}
+#footer a {
+  color: var(--primary-clr);
+}
+
+#footer a:hover {
+  color: var(--secondary-clr) !important;
+}
