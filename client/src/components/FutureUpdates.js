@@ -37,6 +37,9 @@ function FutureUpdates(props) {
             public or private. Any public recipes/recipe books will then be
             searchable on the homepage of the website.
           </li>
+          <li>
+            Make a mobile app for this.
+          </li>
         </ul>
       </section>
       <Footer />
